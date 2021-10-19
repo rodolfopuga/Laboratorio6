@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <title>Pagina 1.</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light  p-3" style="background-color: #e3f2fd;" id="menu">
+        <div class="container">
+            <a class="navbar-brand" href="../Laboratorio6/index.html">
+                <span class="fs-5 text-primary fw-bold" >Practica 6.</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../Laboratorio6/pagina1.html">Pagina 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Laboratorio6/pagina2.html">Pagina 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Laboratorio6/pagina3.html">Pagina 3</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem qui nostrum facilis laudantium necessitatibus natus adipisci esse enim modi quas voluptates ullam nulla, neque, illo ipsa, quos vitae id minima.</p>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem qui nostrum facilis laudantium necessitatibus natus adipisci esse enim modi quas voluptates ullam nulla, neque, illo ipsa, quos vitae id minima.</p>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem qui nostrum facilis laudantium necessitatibus natus adipisci esse enim modi quas voluptates ullam nulla, neque, illo ipsa, quos vitae id minima.</p>
+    <br>
+
+
+    <div class="alert alert-success" role="alert">Pagina 1 de la practica 6</div>
+
+    <script>
+        $(document).ready(function() {
+          $('li.active').removeClass('active');
+          $('a[href="' + location.pathname + '"]').closest('li').addClass('active'); 
+        });
+        </script>
+</body>
+
+</html>
